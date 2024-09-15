@@ -3,7 +3,7 @@ import os
 
 # Define the GitHub token, repo, and local file for commit tracking
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
-GITHUB_REPO = "https://api.github.com/repos/shasingh01/simple_html_project/commits"
+GITHUB_REPO = "https://api.github.com/repos/shasingh01/simple_html_project/commits?sha=new_test_branch"
 LOCAL_COMMIT_FILE = "/var/www/html/latest_commit.txt"
 
 # Function to fetch the latest commit from the GitHub API
@@ -47,4 +47,5 @@ def check_for_new_commits():
 # Call the function to check for new commits
 if __name__ == "__main__":
     check_for_new_commits()
+
 
