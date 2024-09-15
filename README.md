@@ -86,3 +86,5 @@ curl 172.21.131.220
 
 Conclusion
 This pipeline allows for automatic deployment of an HTML project whenever new changes are pushed to the GitHub repository. The use of Python, Bash, and cron jobs ensures that the deployment process is automated and efficient.
+
+NOTE: User can check script file for more info
